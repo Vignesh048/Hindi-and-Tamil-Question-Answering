@@ -27,8 +27,8 @@ For testing we have prepared the `submission.csv` file which is in the format de
 
 ## Results
 
-|       Model       | no-finetuning           | finetuning (with freezing)           | finetuning (without freezing)           |  
-| ------------------- | ------------- | ------------- | ------------- |
-| mBERT | 0.0373        | 0.1013        | 0.2075        |
-| XLM-RoBERTa | 0.2720        | 0.47679        | 0.5837        |
-| indic-BERT | 0.0016        | -        | 0.0288        |
+|       Model       |jaccard_score |  
+| ------------------- | ------------- | 
+| mBERT | 0.0373        | 0.1013        | 
+| XLM-RoBERTa(pretrained on xquad) | 0.567|
+| XLM-RoBERTa(pretrained on squadv2) | 0.586|
