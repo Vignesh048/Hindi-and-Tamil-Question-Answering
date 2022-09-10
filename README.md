@@ -29,6 +29,6 @@ For testing we have prepared the `submission.csv` file which is in the format de
 
 |       Model       |jaccard_score |  
 | ------------------- | ------------- | 
-| mBERT | 0.0373        | 0.1013        | 
+| mBERT | 0.0373        | 0.528     | 
 | XLM-RoBERTa(pretrained on xquad) | 0.567|
 | XLM-RoBERTa(pretrained on squadv2) | 0.586|
